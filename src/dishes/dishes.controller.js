@@ -17,9 +17,10 @@ function dishExists(req, res, next){
     })
   }
 }
+
 // validates input data 
 function bodyDataHas(propertyName) {
-  return function (req, res, next) {
+  return function parser(req, res, next) {
     const { data = {} } = req.body;
     if (data[propertyName]) {
       return next();
@@ -75,7 +76,6 @@ function create(req, res){
 // GET /dishes/:dishId
 // This route will respond with the dish where id === :dishId or return 404 if no matching dish is found.
 function read(req, res){
-  //const dishId = Number(req.params.dishId);
   res.status(200).json({data: res.locals.dish})
 }
 // PUT /dishes/:dishId
@@ -85,7 +85,6 @@ function update(req, res, next){
   const {data: {id, name, description, price, image_url} = {} } = req.body;
  
   // update the dish's data
-  existingDish.id = id;
   existingDish.name = name; 
   existingDish.description = description; 
   existingDish.price = price; 

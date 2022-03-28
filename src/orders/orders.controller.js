@@ -19,7 +19,7 @@ function orderExists(req, res, next){
 }
 // validates input data 
 function bodyDataHas(propertyName) {
-  return function (req, res, next) {
+  return function parser(req, res, next) {
     const { data = {} } = req.body;
     if (data[propertyName]) {
       return next();
