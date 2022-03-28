@@ -2,7 +2,7 @@
 ## About Me:
 - My name is Mad, you can think of it as "Maude" or "Mod" in your head, whichever works!
 - I'm currently enrolled in Thinkful's Fullstack Software Engineering course & having a really great time learning this material. I also earned my BA in Spanish Studies & Computer Science from Texas State University in the winter of 2021, so I was fortunate to have a good foundation of programming knowledge going into this course. 
-- This course is wrapping up at the beginning of May, 2022 (right around the corner!) so please feel free to reach out if you've got me in mind for a junior developer role! 
+- This course is wrapping up at the beginning of May 2022 (right around the corner!) so please feel free to reach out if you've got me in mind for a junior developer role! 
 
 My [🌲 LinkTree🌲 ](https://linktr.ee/madgodinez) has the best ways to find me online, as well as my resume. 
 
@@ -57,7 +57,7 @@ Take a look at this project's [information & instructions](https://github.com/ma
   ```
 ### Learning Objectives:
 1️⃣ use Express to build a RESTful API to store data for multiple resources with minimal code, applying your knowledge of REST and state management.
-2️⃣ develop the functionality for my API to create, read, update, and delete data for multiple resources, while also defining the routes, URL's, and middleware necessary to implement the API.
+2️⃣ develop the functionality for my API to create, read, update, and delete data for multiple resources, while also defining the routes, URLs, and middleware necessary to implement the API.
 In addition to the above, 
   - Running tests from the command line
   - Using common middleware packages
@@ -72,7 +72,7 @@ In addition to the above,
     <img width="700" height="auto" alt="Screen Shot 2022-03-21 at 10 21 24 AM" src="https://user-images.githubusercontent.com/93545744/159300878-515dde19-8f22-4521-8b7f-5ecb5eb27e47.png" align="center">
 2. extract the zipped download folder to your desired location.
 3. open the project directory in your machine's terminal. <br> Ex. `user@mac ~ % cd/Desktop/GrubDash-Project-main`
-4. install the project's packagees: `npm install`
+4. install the project's packages: `npm install`
 5. run the project (this will open a tab in your default browser): `npm start`
 6. that's it, have fun! 😁
 7. once you're ready to close the application, type & enter `<CTRL + C>` in the terminal to stop the servers & disconnect.
